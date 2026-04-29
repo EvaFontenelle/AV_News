@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(231, 231, 231);
+}
+
+#inpUsuario {
+    width: 350px;
+    height: 25px;
+}
+
+#inpSenha {
+    width: 350px;
+    height: 25px;
+}
+
+#lblUsuario {
+    font-size: x-large;
+}
+
+#lblSenha {
+    font-size: x-large;
+}
