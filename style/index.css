@@ -2,20 +2,46 @@ body {
     background-color: rgb(231, 231, 231);
 }
 
-#inpUsuario {
+#inpEmail {
     width: 350px;
     height: 25px;
+    font-size: large;
 }
 
 #inpSenha {
     width: 350px;
     height: 25px;
+    font-size: large;
 }
 
-#lblUsuario {
+#lblEmail {
     font-size: x-large;
+    margin-right: 285px;
 }
 
 #lblSenha {
     font-size: x-large;
+    margin-right: 290px;
+}
+
+#btnEntrar {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: x-large;
+    background-color: red;
+    color: rgb(255, 255, 255);
+}
+
+#msg_credenciais {
+    font-size: large;
+    font-weight: bold;
+}
+
+.sucesso {
+    color: red;
+}
+
+.erro {
+    color: black;
 }

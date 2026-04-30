@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AV News</title>
     <link rel="stylesheet" href="style/index.css">
 </head>
+
 <body>
     <div style="text-align: center;">
         <img id="logo" src="AV News logo.png" style="width: 400px;"><br><br><br>
 
-        <label id="lblUsuario">Usuário:</label><br>
-        <input id="inpUsuario" type="text"><br><br>
+        <form onsubmit="return verificaVeracidade(event)">
+            <label id="lblEmail">e-mail:</label><br>
+            <input id="inpEmail" type="text" placeholder="Ex: andorinhaavapor@gmail.com"><br><br>
 
-        <label id="lblSenha">Senha:</label><br>
-        <input id="inpSenha" type="password">
+            <label id="lblSenha">Senha:</label><br>
+            <input id="inpSenha" type="password" placeholder="Ex: Abc1234"><br>
+            <div id="msg_credenciais"></div><br><br><br><br>
+
+            <button id="btnEntrar" type="submit" onclick="verificaVeracidade()">Entrar</button>
+        </form>
     </div>
 </body>
 <script src="script.js"></script>
